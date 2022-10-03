@@ -1,0 +1,78 @@
+<html>
+<head>
+ <title>FORM MAHASISWA</title>
+</head>
+<body>
+<form method="post" action="simpan.php">
+<table width="550" align="center">
+ <tr>
+  <td colspan="2"><h2>FORM MAHASISWA</h2></td>
+ </tr>
+ <tr>
+  <td>Nama Mahasiswa </td>
+  <td>: <input name="nama" type="text" size="30"></td>
+ </tr>
+  <tr>
+  <td>Jenis Kelamin</td>
+  <td>: <input checked name="jk" type="radio" value="L">Laki-Laki
+   <input name="jk" type="radio" value="P">Perempuan
+  </td>
+ </tr>
+  <tr>
+  <td>Agama</td>
+  <td>
+   : <select name="agama">
+    <option value="">Pilih Agama</option>
+    <option value="Islam">Islam</option>
+    <option value="Protestan">Protestan</option>
+    <option value="Hindu">Hindu</option>
+    <option value="Budha">Budha</option>
+    <option value="Katolik">Katolik</option>
+   </select>
+  </td>
+ </tr>
+  <tr>
+  <td valign='top'>Alamat</td>
+  <td>: <textarea name="alamat" rows="3" cols="35"></textarea></td>
+ </tr>
+  <tr>
+  <td>Telepon</td>
+  <td>: <input name="telpon" type="text" size="30"></td>
+ </tr>
+  <tr>
+ <td>Hobi</td>
+  <td>: <input type="checkbox" name="hobi" value="Olah Raga">Olah Raga
+  <input type="checkbox" name="hobi" value="Membaca">Membaca
+  <input type="checkbox" name="hobi" value="Main Musik">Main Musik</td>
+ </tr>
+  <tr>
+  <td>Jurusan</td>
+  <td>
+   : <select name="jurusan">
+    <option value="">Pilih Jurusan</option>
+    <option value="Teknik Informatika">Teknik INFORMATIKA</option>
+    <option value="Sistem informasi">Sistem informasi</option>
+    <option value="matematika">Matematika</option>
+    <option value="teknik elektro">Teknik Elektro</option>
+    <option value="teknik industri">Teknik Industri</option>
+   </select>
+  </td>
+ </tr>
+  <tr>
+ <td>Bidang Minat</td>
+  <td> :<input type="checkbox" name="bidangminat" value="Pemrograman">Pemrograman
+  <input type="checkbox" name="bidangminat" value="Multimedia">Multimedia
+  <input type="checkbox" name="bidangminat" value="Teknisi&Jaringan">Teknisi&Jaringan</td>
+ </tr>
+ <tr>
+  <td>Foto</td>
+  <td>: <input type="file" name="photo"></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td> <input type="submit" name="simpan" value="Simpan"></td>
+ </tr>
+</table>
+</form>
+</body>
+</html>
